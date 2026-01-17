@@ -1,9 +1,10 @@
 [package]
-name = "demo"
+name = "demo-rust-192"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 lambda_http = "1.0.0"
+serde_json = "1.0.149"
 
 tokio = { version = "1", features = ["macros"] }
