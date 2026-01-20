@@ -15,7 +15,7 @@ pub(crate) async fn function_handler(event: Request) -> Result<Response<Body>, E
 
     let mut _sum = 0;
     for _ in 0..5 {
-        for _ in 0..1000 {
+        for _ in 0..10000 {
             // Simulate some work
             _sum += 1
         }
